@@ -407,7 +407,9 @@
         }
 
         .features-content {
-            padding-right: 2rem;
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
         }
 
         .solution h2 {
@@ -3321,6 +3323,8 @@
 
     <!-- Particles.js Library -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Script for particles animation --> 
     <script>
         particlesJS('particles-js', {
             particles: {
@@ -3379,6 +3383,7 @@
             retina_detect: true
         });
     </script>
+    <!-- Script for progress circles and numbers -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const observer = new IntersectionObserver((entries) => {
